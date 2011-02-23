@@ -293,7 +293,7 @@ function gravatar_enhanced_email_has_gravatar( $email ) {
 	$result = $request->request( $url, array( 'method' => 'GET' ) );
 	
 	// If gravatar returns a 404, email doesn't have a gravatar attached
-	if( ! is_array( $result ) && isset( $result['response']['code'] ) && $result['response']['code'] == 404 ) )
+	if( ! is_array( $result ) && isset( $result['response']['code'] ) && $result['response']['code'] == 404 )
 		return false;
 		
 	// For all other cases, let's assume we do
