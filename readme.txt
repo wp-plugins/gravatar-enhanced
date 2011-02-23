@@ -3,7 +3,7 @@ Contributors: batmoo, automattic
 Tags: gravatar, avatar, hovercards
 Requires at least: 3.1
 Tested up to: 3.1
-Stable tag: 0.1
+Stable tag: 0.1.1
 
 A bunch of groovy enhancements for using Gravatars on your site.
 
@@ -30,5 +30,8 @@ You can enable and manage the features from the "Discussion" Settings page. Just
 
 == Changelog ==
 
-= 0.1 =
+= 0.1.1 (Feb 23, 2011) = 
+* Bug fix: Gravatar check was failing due to a misplaced !
+
+= 0.1 (Feb 23, 2011) =
 * Initial release! 

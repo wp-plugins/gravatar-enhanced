@@ -3,9 +3,8 @@
 Plugin Name: Gravatar Enhanced
 Plugin URI: http://wordpress.org/extend/plugins/gravatar-enhanced/
 Description: Enhanced functionality for Gravatar-ifying your WordPress site. Once you've enabled the plugin, go to the "Avatars" section on the <a href="options-discussion.php">Discussion Settings page</a> to get started.
-Author: Mohammad Jangda, (Muses: Matt Mullenweg, Nick Momrik)
-Version: 0.1
-Author URI: http://digitalize.ca
+Author: Mohammad Jangda, Automattic Inc.
+Version: 0.1.1
 License: GPL2 (see below)
 
 GNU General Public License, Free Software Foundation <http://creativecommons.org/licenses/GPL/2.0/>
@@ -26,6 +25,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 */
 
+define( 'GRAVATAR_ENHANCED_VERSION', '0.1.1' );
 define( 'GRAVATAR_ENHANCED_SIGNUP_URL', 'http://www.gravatar.com/signup' );
 define( 'GRAVATAR_ENHANCED_HOVERCARD_URL', 'http://s.gravatar.com/js/gprofiles.js' );
 define( 'GRAVATAR_ENHANCED_HOVERCARD_VERSION', 'e' );
